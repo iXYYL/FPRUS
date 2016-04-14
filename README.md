@@ -233,7 +233,6 @@
 
 `Distance()`
 
-
 &emsp;&emsp;**常量值**
 
 `const static int EUCLID_DISTANCE = 0`
