@@ -34,34 +34,42 @@
 &emsp;&emsp;**构造器**
 
 `DataSet(int imgNum)`
+
 &emsp;&emsp;imgNum：数据集的大小
 
 
 &emsp;&emsp;**枚举常量**
 
 `FLAG_PHOTO = 0`
+
 &emsp;&emsp;训练相片集的标志
 
 `FLAG_SKETCH = 1`
+
 &emsp;&emsp;训练素描集的标志
 
 &emsp;&emsp;**成员函数**
 
 `void loadTrainingPhotos(const string &photoFilename)`
+
 &emsp;&emsp;加载训练相片集。
 &emsp;&emsp;photoFilename：保存了训练相片集中的所有相片的相对路径与图像名。
 
 `void releaseTrainingPhotos()`
+
 &emsp;&emsp;释放训练相片集的内存。
 
 `void loadTrainingSketches(const string &sketchFilename)`
+
 &emsp;&emsp;加载训练素描集。
 &emsp;&emsp;sketchFilename：保存了训练素描集中的所有素描的相对路径与图像名。
 
 `void releaseTrainingSketches()`
+
 &emsp;&emsp;释放训练素描集的内存。
 
 `void loadTrainingImgs(const string &photoFilename, const string &sketchFilname)`
+
 &emsp;&emsp;加载训练相片集与训练素描集。
 &emsp;&emsp;photoFilename：保存了训练相片集中的所有相片的相对路径与图像名。
 &emsp;&emsp;sketchFilename：保存了训练素描集中的所有素描的相对路径与图像名。
