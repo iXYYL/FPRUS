@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FPRUS
 
 ## 依赖
@@ -212,6 +211,3 @@
 
 [1]: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1038008&queryText=Face%20Photo%20Recognition%20Using%20Sketch&newsearch=true "Face Photo Recognition using sketch"
 [2]: http://mmlab.ie.cuhk.edu.hk/archive/facesketch.html "CUHK Face Sketch Database (CUFS)"
-=======
-#FPRUS
->>>>>>> b202016add6cd78931835be0cf318c0752cc9908
